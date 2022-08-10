@@ -14,7 +14,7 @@ function HomeContent () {
       backgroundImage: `url(${Cars})`,
       backgroundPosition: "center",
       backgroundRepeat: "no-repeat",
-      height: "535px",
+      height: "515px",
       width: "100%"
       }}>
   
@@ -26,13 +26,14 @@ function HomeContent () {
       textAlign: "center",
       marginBottom: "0px"
       }}>
-     
-        The sweetest used  <span 
+        <strong>
+        The sweetest used <span 
           style={{color: "#0076be"}}>
-             car deals
+             <em>car deals </em> 
           </span>
-          <br/>
         you can imagine
+        </strong>
+        
     </Typography>
       <br/>
       <br/>
@@ -40,19 +41,21 @@ function HomeContent () {
       sx={{
       fontFamily: "Poppins", 
       color: "#0076be",
-      paddingTop: "350px",
+      paddingTop: "370px",
       textAlign: "center",
       marginBottom: "0px"
       }}>
-     
+        <strong>
         Find your perfect car
+        </strong>
     </Typography>
+
   {/* ------- FIRST CARD CONTAINER ------- */}
 
     <Container disableGutters={true} maxWidth={false}
         sx={{
           display: "flex",
-          paddingTop: "50px",
+          paddingTop: "10px",
           textAlign: "center",
           justifyContent: "center"
           }}>
@@ -62,6 +65,7 @@ function HomeContent () {
                 alt="Honda CRV" 
                 height="250px" 
                 width="350px"
+                style={{padding: "20px"}}
                 />
                 
             <img id="2"
@@ -69,6 +73,7 @@ function HomeContent () {
                 alt="Toyota Fortuner" 
                 height="250px" 
                 width="350px"
+                style={{padding: "20px"}}
                 />
 
             <img id="3"
@@ -76,6 +81,7 @@ function HomeContent () {
                 alt="Mitsubishi Outlander" 
                 height="250px" 
                 width="350px"
+                style={{padding: "20px"}}
                 />
             
         </div>       
@@ -96,6 +102,7 @@ function HomeContent () {
                 alt="Mitsubishi Mirage" 
                 height="250px" 
                 width="350px"
+                style={{padding: "20px"}}
                 />
                 
             <img id="2"
@@ -103,6 +110,7 @@ function HomeContent () {
                 alt="Mitsubishi ASX" 
                 height="250px" 
                 width="350px"
+                style={{padding: "20px"}}
                 />
 
             <img id="3"
@@ -110,11 +118,10 @@ function HomeContent () {
                 alt="Mitsubishi Triton" 
                 height="250px" 
                 width="350px"
+                style={{padding: "20px"}}
                 />
-            
         </div>       
     </Container>
-
 
   {/* ---------- FOOTER ---------- */}
 
