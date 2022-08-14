@@ -5,15 +5,13 @@
   height: 50px;
   width: 100%;
   padding: 0.5rem 0rem;
-  background-color: #fff;
-  color: #4a0a0a;
+  background-color: #FFFFFF;
   font-family: "Poppins";
   
 }
 
 .brand-name {
   text-decoration: none;
-  color: #4a0a0a;
   font-size: 1.3rem;
   margin-left: 1rem;
 }
@@ -33,6 +31,10 @@
   list-style-type: none;
   margin: 0 1rem;
  
+}
+
+.navigation-menu li a:hover {
+  color: #b71234;
 }
 
 .navigation-menu li a {

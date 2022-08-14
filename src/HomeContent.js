@@ -2,6 +2,7 @@ import React from 'react';
 import { Box, Container } from '@mui/material';
 import Typography from '@mui/material/Typography';
 import Cars from "./Cars.jpg";
+import Footer from './HomeFooter';
 
 
 function HomeContent () {
@@ -14,7 +15,7 @@ function HomeContent () {
       backgroundImage: `url(${Cars})`,
       backgroundPosition: "center",
       backgroundRepeat: "no-repeat",
-      height: "515px",
+      height: "500px",
       width: "100%"
       }}>
   
@@ -63,25 +64,25 @@ function HomeContent () {
             <img id="1"
                 src="/images/Car1.jpg" 
                 alt="Honda CRV" 
-                height="250px" 
-                width="350px"
-                style={{padding: "20px"}}
+                height="200px" 
+                width="300px"
+                style={{padding: "30px"}}
                 />
                 
             <img id="2"
                 src="/images/Car2.jpg" 
                 alt="Toyota Fortuner" 
-                height="250px" 
-                width="350px"
-                style={{padding: "20px"}}
+                height="200px" 
+                width="300px"
+                style={{padding: "30px"}}
                 />
 
             <img id="3"
                 src="/images/Car3.jpg" 
                 alt="Mitsubishi Outlander" 
-                height="250px" 
-                width="350px"
-                style={{padding: "20px"}}
+                height="200px" 
+                width="300px"
+                style={{padding: "30px"}}
                 />
             
         </div>       
@@ -100,35 +101,37 @@ function HomeContent () {
             <img id="1"
                 src="/images/Car4.jpg" 
                 alt="Mitsubishi Mirage" 
-                height="250px" 
-                width="350px"
+                height="200px" 
+                width="300px"
                 style={{padding: "20px"}}
                 />
                 
             <img id="2"
                 src="/images/Car5.jpg" 
                 alt="Mitsubishi ASX" 
-                height="250px" 
-                width="350px"
+                height="200px" 
+                width="300px"
                 style={{padding: "20px"}}
                 />
 
             <img id="3"
                 src="/images/Car6.jpg" 
                 alt="Mitsubishi Triton" 
-                height="250px" 
-                width="350px"
+                height="200px" 
+                width="300px"
                 style={{padding: "20px"}}
                 />
         </div>       
     </Container>
 
   {/* ---------- FOOTER ---------- */}
-
+    <hr/>
+    <Footer/>
+    <hr/>
     <Container disableGutters={true} maxWidth={false}
         sx={{ 
-          height: "50px",
-          marginTop: "50px",
+          height: "30px",
+          marginTop: "20px",
           textAlign: "center",
           color: "#0076be"}}>
       <Typography>

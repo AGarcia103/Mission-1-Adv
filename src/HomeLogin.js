@@ -181,7 +181,7 @@ function LoginModal() {
               />
               <Button
                 style={{
-                  backgroundColor: "#a6111b"}}
+                  backgroundColor: "#b71234"}}
                 name="student"
                 onClick={handleLogin}
                 variant="contained"
@@ -205,7 +205,7 @@ function LoginModal() {
         <Alert
           onClose={handleSnackClose}
           severity="success"
-          sx={{ width: "100%", backgroundColor: "#d89e1a" }}
+          sx={{ width: "100%", backgroundColor: "#b71234" }}
         >
           Nice to see you, {loggedInUser.email}!
         </Alert>
