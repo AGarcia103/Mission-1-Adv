@@ -1,9 +1,14 @@
 /**
  * TODO(developer): Uncomment these variables before running the sample.
  */
-// const projectId = 'YOUR_PROJECT_ID';
-// const location = 'us-central1';
-// const modelId = 'YOUR_MODEL_ID';
+
+const dotenv = require('dotenv').config({ path: '../../ENV/.env' })
+
+console.log(process.env)
+
+const projectId = process.YOUR_PROJECT_ID;
+const location = 'us-central1';
+const modelId = process.YOUR_MODEL_ID;
 
 // Imports the Google Cloud AutoML library
 const {AutoMlClient} = require('@google-cloud/automl').v1;
