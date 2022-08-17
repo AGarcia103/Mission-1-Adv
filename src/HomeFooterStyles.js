@@ -18,7 +18,7 @@ export const Container = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	font-family: "Poppins";
+	font-family: "Nunito";
 	background: #FFFFFF;
     color: #0076be;
 
@@ -47,7 +47,7 @@ padding: 30px 30px;
 `;
 
 export const FooterLink = styled.div`
-font-family: "Poppins";
+font-family: "Nunito";
 color: #0076be;
 margin-bottom: 8px;
 font-size: 14px;
@@ -58,7 +58,7 @@ text-decoration: none;
 `;
 
 export const Heading = styled.div`
-font-family: "Poppins";
+font-family: "Nunito";
 font-size: 16px;
 color: #0076be;
 margin-bottom: 20px;
