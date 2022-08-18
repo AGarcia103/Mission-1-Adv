@@ -17,7 +17,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-family: "Poppins";
+  font-family: "Nunito";
   background: #ffffff;
   color: #0076be;
 `;
@@ -42,7 +42,7 @@ export const Row = styled.div`
 `;
 
 export const FooterLink = styled.div`
-  font-family: "Poppins";
+  font-family: "Nunito";
   color: #0076be;
   margin-bottom: 8px;
   font-size: 14px;
@@ -53,9 +53,8 @@ export const FooterLink = styled.div`
 `;
 
 export const Heading = styled.div`
-  font-family: "Poppins";
+  font-family: "Nunito";
   font-size: 16px;
   color: #0076be;
   margin-bottom: 20px;
   font-weight: bold;
-`;

@@ -2,6 +2,7 @@ import React from 'react';
 import { Box, Container } from '@mui/material';
 import Typography from '@mui/material/Typography';
 import Cars from "./Cars.jpg";
+import HomeFind from './HomeFind';
 import Footer from './HomeFooter';
 import { FindACar } from './components/findACar/FindACar';
 
@@ -22,7 +23,7 @@ function HomeContent () {
   
     <Typography gutterBottom variant="h4" component="div" 
       sx={{
-      fontFamily: "Poppins", 
+      fontFamily: "Nunito", 
       color: "#FFFFFF",
       paddingTop: "100px",
       textAlign: "center",
@@ -41,7 +42,7 @@ function HomeContent () {
       <br/>
       <Typography gutterBottom variant="h4" component="div" 
       sx={{
-      fontFamily: "Poppins", 
+      fontFamily: "Nunito", 
       color: "#0076be",
       paddingTop: "370px",
       textAlign: "center",
@@ -127,14 +128,17 @@ function HomeContent () {
                 />
         </div>       
     </Container>
+  
+  {/* ---------- FIND YOUR PERFECT CAR SECTION ---------- */}
 
-    
+    <HomeFind/>
+    <br/>
       
   {/* ---------- VEHICLE SEARCH SECTION ---------- */}
 
     <Typography gutterBottom variant="h4" component="div" 
         sx={{
-        fontFamily: "Poppins", 
+        fontFamily: "Nunito", 
         color: "#0076be",
         paddingTop: "10px",
         textAlign: "center",
