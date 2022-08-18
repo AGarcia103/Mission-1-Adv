@@ -4,9 +4,13 @@ import axios from "axios";
 import FormData from "form-data";
 // import { useEffect } from "react";
 import { useState } from "react";
+import carsData from '../../../src/MOCK_DATA.json'
+console.log(carsData)
+
 
 export const FindACar = () => {
   const [image, setImage] = useState(null);
+  const [cars, setCars] = useState(carsData)
 
   const handleFileUpload = (e) => {
     const formData = new FormData();
@@ -42,7 +46,9 @@ export const FindACar = () => {
           <button type='submit' onClick={handleSubmit}>Submit</button>
         </div>
 
-        <div className={styles.search_content}>Cars will be displayed here</div>
+        <div className={styles.search_content}>{cars.map((data, index) => {
+          <div></div>
+        })}</div>
       </div>
     </div>
   );
