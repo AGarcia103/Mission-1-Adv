@@ -3,6 +3,7 @@ import { Box, Container } from '@mui/material';
 import Typography from '@mui/material/Typography';
 import Cars from "./Cars.jpg";
 import Footer from './HomeFooter';
+import { FindACar } from './components/findACar/FindACar';
 
 
 function HomeContent () {
@@ -51,6 +52,10 @@ function HomeContent () {
         </strong>
     </Typography>
 
+      {/* Component exported from Nirmal's repo */}
+      <FindACar></FindACar>
+
+      {/*  */}
   {/* ------- FEATURED VEHICLES SECTION 1 ------- */}
 
     <Container disableGutters={true} maxWidth={false}

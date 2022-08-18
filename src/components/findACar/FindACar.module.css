@@ -1,5 +1,6 @@
 .search_container {
   color: blue;
+  padding-top: 2em;
   width: 100%;
   margin: 0 auto;
 }
@@ -26,7 +27,16 @@
 }
 
 .search_content {
-  border: 1px solid red;
+  padding-top: 4em;
+  margin-top: 2em;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4em;
+  background-color: #0076be;
+  border-radius: 20px;
 }
 
 .input_search {
@@ -45,12 +55,28 @@
   width: 20em;
 }
 .input_search input:nth-of-type(2) {
+  width: 13em;
   margin-left: 1em;
   font-size: 1.2em;
   padding: 0.6em;
   border-radius: 10px;
   color: white;
   background-color: #0076be;
+}
+.input_search button {
+  background-color: #0076be;
+  padding: 0.7em 1.5em;
+  font-size: 1.2em;
+  border: 1px solid #0076be;
+  margin-left: 1em;
+  border-radius: 10px;
+  color: white;
+}
+
+.map_container {
+  width: 25%;
+  height: 300px;
+  border: 1px solid blue;
 }
 
 /*# sourceMappingURL=FindACar.module.css.map */
